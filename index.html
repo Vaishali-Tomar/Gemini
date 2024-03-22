@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <main>
+    <div class="msg-container">
+      <div class="manu" id="icon">
+        <span class="material-symbols-outlined">
+          menu
+          </span>
+          <div class="lefter">
+            <h1 class="head">Help</h1>
+          <h1 class="head">Setting</h1>
+          <h1 class="head">Activity</h1>
+          </div>
+          
+      </div>
+      <div class="nav">
+        <h3>Gemini</h3>
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/427343817_941041327241948_8834514349891960308_n.jpg?ccb=11-4&oh=01_AdQ1exZ2xBmg23KCiQUUJVQ40A2uwwapK_QrzzfC8fB-xA&oe=66099AE4&_nc_sid=e6ed6c&_nc_cat=101" alt="">
+      </div>
+      <div class="chat-box" id="chat-box">
+        <div class="user-msg">
+          <h1 class="heading">Hello, Vaishali<br>How can i help you</h1>
+        </div>
+        <div class="bot-msg">
+          <div class="box"> 
+            <p>Bot: Hello, how can I assist you?</p>
+          </div>
+          <div class="box"> 
+            <p>Bot: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe ab quae consequuntur molestiae cumque.</p>
+          </div>
+          <div class="box"> 
+            <p>Bot: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe ab quae consequuntur molestiae cumque.</p>
+          </div>
+        </div>
+      </div>
+      <div class="user-input-div">
+        <input type="text" placeholder="Type your message..." class="user-input" />
+        <button class="btn"><span class="material-symbols-outlined">send</span></button>
+        <span class="material-symbols-outlined">image_search</span>
+      </div>
+    </div>
+  </main>
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
